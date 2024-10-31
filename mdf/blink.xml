@@ -59,7 +59,7 @@
         	version_minor="1"
         	version_subminor="1">
         	<description lang="en" >
-        	A firmware file
+        	A dummy firmware file
         	</description> 
     	</firmware>
     </files>
@@ -131,7 +131,7 @@
         </reg>
 
         <reg page="0" offset="5" default="100" bgcolor="0xebd69d">
-            <name lang="en">Dummy int LSB</name>
+            <name lang="en">Alarm count LSB</name>
             <description lang="en">Alarm level for blink count. Zero is no alarm. LSB</description>
             <access>rw</access>
         </reg>
